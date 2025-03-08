@@ -114,7 +114,7 @@ st.markdown('<p class="big-font">Ваш помощник в оценке рис�
 @st.cache_data  # Кэшируем данные, чтобы они загружались только один раз
 def load_data():
     # Укажите путь к вашему файлу данных
-    data = pd.read_csv(r"C:\Users\holmi\.cache\kagglehub\datasets\mahatiratusher\stroke-risk-prediction-dataset\versions\1\stroke_risk_dataset.csv", sep=',')
+    data = pd.read_csv("https://raw.githubusercontent.com/Holmirzo/stroke/refs/heads/main/stroke_risk_dataset.csv", sep=',')
     return data
 
 # Загружаем данные
