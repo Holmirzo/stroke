@@ -5,6 +5,6 @@ seaborn
 matplotlib
 scikit-learn
 xgboost
-catboost
+catboost==1.2.2
 scipy
 joblib
