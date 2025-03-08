@@ -28,7 +28,7 @@ from catboost import CatBoostClassifier
 
 # Подбор гиперпараметров
 from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
-from sklearn.model_selection import StratifiedKFold, RandomizedSearchCV
+from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import roc_auc_score, classification_report, confusion_matrix
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, classification_report, confusion_matrix
 import warnings
@@ -42,7 +42,7 @@ from sklearn.metrics import (accuracy_score, precision_score, recall_score,
 
 from scipy.stats import chi2_contingency
 from sklearn.metrics import mutual_info_score
-#from catboost import CatBoostClassifier
+from catboost import CatBoostClassifier
 from sklearn.svm import SVC
 
 # Функция для вычисления корреляции Фибера
